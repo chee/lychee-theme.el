@@ -67,7 +67,7 @@
     ((t (:foreground ,subtle2))))
 
   `(font-lock-comment-face
-    ((t (:foreground ,subtle2 :family "sans-serif" :slant italic))))
+    ((t (:foreground ,subtle2 :slant italic))))
 
   `(font-lock-constant-face
     ((t (:foreground ,wishy))))
@@ -87,14 +87,6 @@
   `(font-lock-preprocessor-face
     ((t (:foreground ,sky))))
 
-  `(font-lock-regexp-grouping-backslash
-    ((t (:bold   t
-                 :weight bold))))
-
-  '(font-lock-regexp-grouping-construct
-    ((t (:bold   t
-                 :weight bold))))
-
   `(font-lock-string-face
     ((t (:foreground ,mint :background ,background))))
 
@@ -105,9 +97,7 @@
     ((t (:foreground ,variable))))
 
   `(font-lock-warning-face
-    ((t (:bold       t
-                     :foreground ,uhoh
-                     :weight     bold))))
+    ((t (:foreground ,uhoh))))
 
   `(fringe
     ((t (:background ,background))))
@@ -160,10 +150,8 @@
     ((t (:background ,hot))))
 
   '(trailing-whitespace
-    ((t (:bold       t
-                     :background "#571C0E"
-                     :foreground "#331C10"
-                     :weight     bold))))
+    ((t (            :background "#571C0E"
+                     :foreground "#331C10"))))
 
   ;;
   ;; ISearch
@@ -183,8 +171,7 @@
     ((t (:foreground "#729FCF"))))
 
   '(twittering-username-face
-    ((t (:foreground "#FC951E"
-                     :bold t))))
+    ((t (:foreground "#FC951E"))))
 
   ;;
   ;; Usual UI stuffs
@@ -193,15 +180,11 @@
     ((t (:background ,foreground :foreground "white"))))
 
   '(custom-group-tag-face
-    ((t (:bold       t
-                     :foreground "#67D9F0"
-                     :weight      bold
+    ((t (            :foreground "#67D9F0"
                      :height      1.2))))
 
   '(custom-variable-tag-face
-    ((t (:bold t
-               :foreground "#729FCF"
-               :weight bold))))
+    ((t (      :foreground "#729FCF" ))))
 
   '(custom-state-face
     ((t (:foreground "#A6E32Dr"))))
@@ -235,9 +218,8 @@
     ((t (:background "#555753"))))
 
   '(diff-file-header
-    ((t (:bold t
-               :background "#555753"
-               :weight bold))))
+    ((t (      :background "#555753"
+               ))))
 
   '(diff-context
     ((t (:foreground "#EEEEEE"))))
@@ -291,12 +273,12 @@
   '(flyspell-duplicate
     ((t (:background "#382323"
                      :underline  "#FC951E"
-                     :bold        t))))
+          ))))
 
   '(flyspell-incorrect
     ((t (:background "#382323"
                      :underline "#E52222"
-                     :bold t))))
+          ))))
 
   ;;
   ;; ERC
@@ -326,7 +308,7 @@
   '(rst-level-1-face
     ((t (:foreground "#729FCF"
                      :background nil
-                     :bold t))))
+          ))))
 
   '(rst-level-2-face
     ((t (:inherit 'rst-level-1-face))))
