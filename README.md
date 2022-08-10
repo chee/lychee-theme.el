@@ -27,7 +27,7 @@ and omg now it looks like this:
 
 ## if u have problem
 
-plz tell me by opening an issue or email me at yay@chee.info
+plz tell me by opening an issue or email me at [yay@chee.party](mailto:lychee@chee.party)
 ok i love you bye
 
 
